@@ -1,0 +1,546 @@
+/* FONTS */
+@font-face {
+    font-family: "Helvetica Neue Light";
+    src: url("../fonts/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix");
+    src: url("../fonts/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix") format("eot"), 
+        url("../fonts/9a2e4855-380f-477f-950e-d98e8db54eac.woff") format("woff"), 
+        url("../fonts/fa82d0ee-4fbd-4cc9-bf9f-226ad1fcbae2.ttf") format("truetype"), 
+        url("../fonts/48d599a6-92b5-4d43-a4ac-8959f6971853.svg#48d599a6-92b5-4d43-a4ac-8959f6971853") format("svg");
+}
+
+@font-face {
+    font-family: "Helvetica Neue Bold";
+    src: url("../fonts/db853e0e-929b-4272-b420-c946c954cf3a.eot?#iefix");
+    src: url("../fonts/db853e0e-929b-4272-b420-c946c954cf3a.eot?#iefix") format("eot"), 
+        url("../fonts/4a9c62ab-b359-4081-8383-a0d1cdebd111.woff") format("woff"), 
+        url("../fonts/db5f9ba6-05a4-433a-9461-0a6f257a0c3a.ttf") format("truetype"), 
+        url("../fonts/25e09910-ffc3-4fc4-b0d1-db9a95dface8.svg#25e09910-ffc3-4fc4-b0d1-db9a95dface8") format("svg");
+}
+
+@font-face {
+    font-family: "Helvetica Neue Roman";
+    src: url("../fonts/e30c4534-e8af-416e-b7fb-c395323e8424.eot?#iefix");
+    src: url("../fonts/e30c4534-e8af-416e-b7fb-c395323e8424.eot?#iefix") format("eot"), 
+        url("../fonts/541908c1-6856-4337-b6cb-f57a88784cbe.woff") format("woff"), 
+        url("../fonts/354b6f86-00e3-4843-b8d0-9107b4ae0100.ttf") format("truetype"), 
+        url("../fonts/2e170156-a84c-48cf-bc19-5c5c4db18b03.svg#2e170156-a84c-48cf-bc19-5c5c4db18b03") format("svg");
+}
+
+/* General styles */
+.color-blue   { color: #62b3e5; }
+.color-red    { color: #e56385; }
+.color-orange { color: #f78d2d; }
+.color-green  { color: #6cc04a; }
+.bg-black     { background-color: black; }
+.bg-blue      { background-color: #62b3e5; }
+.bg-red       { background-color: #e56385; }
+.bg-orange    { background-color: #f78d2d; }
+.bg-green     { background-color: #6cc04a; }
+
+.main-div {
+  min-height:680px;
+  padding-top: 20px;
+}
+
+.color-invert {
+  color:white; 
+  background-color:black;
+}
+
+.clear {
+  content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Helvetica Neue Light";
+}
+
+/* General styles */
+.wrapper {
+  width: 100%;
+  position: relative;
+  clear: both;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2.section-heading {
+    font-size: 150px;
+    font-family: "Helvetica Neue Bold";
+    line-height: 1;
+    text-transform: uppercase;
+}
+h3.section-slogan {
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+hr.section-delimiter {
+    width: 365px;
+    height: 1px;
+    border: none;
+    margin: 30px auto 60px;
+}
+
+p.heading-info {
+    font-size: 14px !important;
+    font-family: "Helvetica Neue Bold";
+    line-height: 1;
+    margin-top: 20px;
+} 
+p.section-text {
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+/* Header */
+#header-wrapper {
+  height: 678px;
+  position: relative;
+  background-color: #000;
+}
+
+    #header-wrapper #header {
+      color: #fff;
+    }
+    
+    #header-wrapper #header #logo {
+        height: 184px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        text-align: left;
+    }
+    
+        #header-wrapper #header #logo p {
+            padding-top: 78px;
+        }
+        
+            #header-wrapper #header #logo p img {
+                padding-right: 27px;
+            }
+    
+    #header-wrapper #header #slogan {
+        height: 308px;
+        width: 100%;
+        text-align: left;
+    }
+    
+        #header-wrapper #header #slogan h1 {
+            font-size: 120px;
+            font-family: "Helvetica Neue Bold";
+            padding-top: 20px;
+            line-height: 105px;
+        }
+        
+        #header-wrapper #header #slogan h2 {
+            font-size: 24px;
+            font-family: "Helvetica Neue Bold";
+            padding: 15px 0 0 8px;
+        }
+    
+    #header-wrapper #header #links {
+        height: 184px;
+        border-top: 1px solid #fff;
+        width: 100%;
+    }
+    
+        #header-wrapper #header #links .buttons {
+            margin-top: 60px;
+        }
+        
+            #header-wrapper #header #links .buttons li {
+                float: left;
+                list-style-type: none;
+                list-style-position: inside;
+                display: block;
+                margin: 0 8px;
+            }
+            
+                #header-wrapper #header #links .buttons li a {
+                    display: block;
+                    width: 174px;
+                    height: 46px;
+                    line-height: 46px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-size: 24px;
+                    font-family: "Helvetica Neue Bold";
+                    background: url(../images/button-arrow.png) center 35px no-repeat;
+                }
+                
+    #header-wrapper #social {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+/* CEM */
+#cem-wrapper #cem {
+    padding-bottom: 40px;
+}
+
+    #cem-wrapper #cem h2 {
+        margin-top: 120px;
+    }
+     
+/* VIDEO */
+#video-wrapper {
+    height: 678px;
+    background-color: #000;
+}
+    
+    #video-wrapper #video a {
+        text-decoration: none;
+        color: #00b3ee;
+        font-size: 150px;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue Bold";
+        line-height: 205px;
+        margin: 0 auto;
+        width: 600px;
+        display: block;
+    }
+    
+    #video-wrapper #video hr {
+        width: 365px;
+        border: none;
+        margin: 0 auto;
+        height: 236px;
+    }
+    
+    #video-wrapper #video hr.border-bottom {
+        border-bottom: 1px solid #e56385;
+    }
+    
+    #video-wrapper #video hr.border-top {
+        border-top: 1px solid #e56385;
+    }
+    
+/* CAREERS */
+#careers-wrapper #careers h2 {
+    margin-top: 120px;
+}
+
+/* JOBS */
+#jobs-wrapper #jobs .job {
+    float: left;
+    width: 306px;
+    margin: 0 0 60px 31px;
+}
+
+#jobs-wrapper #jobs .job:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+    #jobs-wrapper #jobs .job .role-adjective {
+        font-size: 24px;
+        font-family: "Helvetica Neue Bold";
+        text-transform: uppercase;
+        padding: 20px 0 10px;
+    }
+    
+    #jobs-wrapper #jobs .job .role {
+        font-size: 35px;
+        font-family: "Helvetica Neue Bold";
+        padding-bottom: 10px;
+    }
+    
+    #jobs-wrapper #jobs .job .read-more {
+        font-size: 14px;
+        font-family: "Helvetica Neue Bold";
+    }
+    
+/* SERVICES */
+#services-wrapper #services {
+    padding-bottom: 100px;
+}
+
+    #services-wrapper #services h2 {
+        margin-top: 120px;
+    }
+
+    #services-wrapper #services #services-list {
+        height: auto;
+        float: left;
+        clear: both;
+        display: block;
+    }
+
+        #services-wrapper #services .service-item {
+            float: left;
+            width: 204px;
+            padding: 0 20px;
+            /*border-left: 1px solid #62b3e5;*/
+            height: 470px;
+
+        }
+
+        #services-wrapper #services .service-item:first-child {
+            width: 205px;
+            border-left: none;
+        }
+
+            #services-wrapper #services .service-item h2 {
+                font-size: 60px;
+                font-family: "Helvetica Neue Bold";
+                margin: 0;
+                padding: 0;
+            }
+
+            #services-wrapper #services .service-item h3 {
+                font-size: 22px;
+                font-family: "Helvetica Neue Light";
+                font-weight: normal;
+                height: 40px;
+            }
+
+            #services-wrapper #services .service-item ul {
+                height: 100%;
+            }
+
+                #services-wrapper #services .service-item ul li {
+                    font-size: 16px;
+                    padding: 15px 0;
+                    list-style-type: none;
+                }
+
+#footer-wrapper {
+    clear: both;
+    padding: 30px 0;
+}
+
+#footer-wrapper #footer {
+    text-align: left;
+    position: relative;
+}
+
+    #footer-wrapper #footer ul {
+        margin-bottom: 100px;
+    }
+
+        #footer-wrapper #footer ul li {
+            list-style-type: none;
+            padding: 10px 0;
+        }
+
+        #footer-wrapper #footer ul li a {
+            text-decoration: none;
+
+            color: #fff;
+        }
+    
+        #footer-wrapper #footer p {
+            color: #fff;
+        }
+    #footer-wrapper #footer .footer-logo {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;    
+        width: 60px;
+    }
+/* TABLET */
+/* The container width will be 768px in this case  so you must count with it. */
+@media screen and (max-width: 1023px) {
+    /* TODO remove background color changing */
+    body {
+        background-color: lightgreen;
+    }
+    
+    .container {
+        width: 728px;    /* down from 980 px (75%) */
+        padding: 0 20px;
+    }
+
+    /* Fonts to 3/4 size */
+    #header-wrapper #header #slogan h1 { font-size: 90px;  /* from 120px */ }
+    #header-wrapper #header #slogan h2 { font-size: 19px;  /* from 24 px */ }
+    h2.section-heading                 { font-size: 108px; /* from 150px */ }
+    h3.section-slogan                  { font-size: 36px;  /* from 48px */  }
+
+    /* Jobs section */
+    #jobs-wrapper #jobs {
+        padding: 0 20px;
+    }
+    
+        #jobs-wrapper #jobs .job {
+            margin: 0 19px 60px;
+        }
+
+        #jobs-wrapper #jobs .job:nth-child(3n+1) {
+            margin: 0 19px 60px;
+        }
+        
+    #services-wrapper #services #services-list .service-item {
+        /*
+        728 is the width of the container space / 2 = 364px for each element on the row
+        364 space for an el in the container - (205 width of the element + 40 padding on the left and right) = 119px
+        119 is the space for margins / 2 = 59px; 
+        */
+        width: 205px;
+        margin: 0 59px 40px;
+    }
+}
+
+/* SMARTPHONE */
+/* The container width will be 480px in this case so you must count with it. */
+@media screen and (max-width: 767px) {
+    body {
+        background-color: lightblue;
+    }
+    
+    .container {
+        width: 440px;
+        padding: 0 20px;
+    }
+    
+    /* from 120px, 24px, 150px, 48px */
+    #header-wrapper #header #slogan h1 { font-size: 70px; line-height: 80px; }
+    #header-wrapper #header #slogan h2 { font-size: 12px; }
+    h2.section-heading { 
+        font-size: 80px; 
+        /*margin-left: -25px;*/
+    }
+    /*h3.section-slogan                  { font-size: 30px; }*/
+
+    /* Buttons */
+    #header-wrapper #header #links .buttons li a {
+        width: 100px;
+        height: 46px;
+        font-size: 19px;
+    }
+
+    #video-wrapper #video a {
+        font-size: 115px;
+        width: 440px;
+    }
+
+    /* Jobs section */
+    #jobs-wrapper #jobs {
+        padding: 0 20px;
+        width: 440px;
+    }
+    
+        #jobs-wrapper #jobs .job {
+            margin: 0 67px 60px;
+        }
+
+        #jobs-wrapper #jobs .job:nth-child(3n+1) {
+            margin: 0 67px 60px;
+        }
+        
+    #services-wrapper #services #services-list .service-item {
+        /*
+        440 is the width of the container space / 2 = 220px for each element on the row
+        220 space for an el in the container - (200 width of the element + 20 padding on the left and right) =  0
+        0 is the space for margins / 2 = 0px; 
+        */
+        width: 200px;
+        margin: 0 0 40px;
+        padding: 0 10px;
+    }
+        #services-wrapper #services #services-list .service-item h2 {
+            font-size: 50px;
+        }
+        #services-wrapper #services .service-item h3 {
+            font-size: 15px;
+        }
+   
+}
+
+/* MOBILE */
+/* The container width will be 320px in this case so you must count with it. */
+@media screen and (max-width: 479px) {
+    body {
+        background-color: lightpink;
+    }
+    
+    .container {
+        width: 280px;
+        padding: 0 20px;
+    }
+    #header-wrapper #header #slogan {
+        height: 326px;
+    }
+    #header-wrapper #header #logo p img {
+        width: 60px;
+    }    
+    #header-wrapper #header #logo p {
+        font-size: 10px;
+    }    
+
+    /* from 120px, 24px, 150px, 48px */
+    #header-wrapper #header #slogan h1 { font-size: 60px; line-height: 60px; }
+    #header-wrapper #header #slogan h2 { font-size: 20px; }
+    h2.section-heading { 
+        font-size: 60px; 
+        margin-left: -25px;
+    }
+    h3.section-slogan { font-size: 30px;  /* from 48px */  }
+    p.section-text { font-size: 18px; }
+    /* Buttons */
+    #header-wrapper #header #links .buttons {
+        visibility: hidden;
+    }
+    hr.section-delimiter {
+        width: 260px; /* from 365px*/
+    }
+    /* PLAY ► */
+    #video-wrapper #video hr {
+        width: 265px;
+    }
+    #video-wrapper #video a {
+        font-size: 90px;
+        width: 360px;
+        margin-left: -30px;
+    }
+    /* Jobs section */
+    #jobs-wrapper #jobs {
+        padding: 0 20px;
+        width: 280px;
+    }
+    
+        #jobs-wrapper #jobs .job {
+            width: 280px;
+            margin: 0 0 60px;
+        }
+
+        #jobs-wrapper #jobs .job:nth-child(3n+1) {
+            margin: 0 0 60px;
+        }
+        
+    #services-wrapper #services #services-list .service-item {
+        /*
+        280 is the width of the container space / 1 = 280px for each element on the row
+        280 space for an el in the container - (200 width of the element + 20 padding on the left and right) =  0
+        60 is the space for margins / 2 = 30px; 
+        */
+        width: 200px;
+        margin: 0 30px 40px;
+        padding: 0 10px;
+        height: auto;
+    }
+    
+        #services-wrapper #services #services-list .service-item h2 {
+            font-size: 40px;
+        }
+        #services-wrapper #services .service-item h3 {
+            font-size: 18px;
+        }
+
+}
+    
+    
+
