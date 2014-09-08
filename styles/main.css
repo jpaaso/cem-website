@@ -471,6 +471,14 @@ p.section-text {
         width: 280px;
         padding: 0 20px;
     }
+    
+    hr.section-delimiter {
+        width: 280px;
+        height: 1px;
+        border: none;
+        margin: 30px auto 60px;
+    }
+    
     #header-wrapper #header #slogan {
         height: 326px;
     }
@@ -504,7 +512,7 @@ p.section-text {
     #video-wrapper #video a {
         font-size: 60px;
         width: 280px;
-        margin-left: -30px;
+        margin-left: 0px;
     }
     /* Jobs section */
     #jobs-wrapper #jobs {
