@@ -130,6 +130,7 @@ p.section-text {
         
             #header-wrapper #header #logo p img {
                 padding-right: 27px;
+                border: none;
             }
     
     #header-wrapper #header #slogan {
