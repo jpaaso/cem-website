@@ -138,6 +138,23 @@ p.section-text {
                 font-family: "Helvetica Neue Bold";
                 background: url(../images/button-arrow.png) center 35px no-repeat;
             }
+            
+        #header-wrapper #social {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+
+            #header-wrapper #social div,
+            #header-wrapper #social span,
+            #header-wrapper #social iframe {
+                float: left;
+            }
+
+            #header-wrapper #social .twitter-share-button {
+                width: 80px !important;
+            }
+            
 #footer-wrapper {
     clear: both;
     padding: 30px 0;
@@ -253,22 +270,6 @@ footer .menu li.social a img {width: 20px;}
             font-size: 24px;
             font-family: "Helvetica Neue Bold";
             padding: 15px 0 0 8px;
-        }
-
-    #index-page #header-wrapper #social {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-    }
-
-        #index-page #header-wrapper #social div,
-        #index-page #header-wrapper #social span,
-        #index-page #header-wrapper #social iframe {
-            float: left;
-        }
-
-        #index-page #header-wrapper #social .twitter-share-button {
-            width: 80px !important;
         }
 
     /* Cem section */
@@ -621,6 +622,7 @@ footer .menu li.social a img {width: 20px;}
 #role-page #header-wrapper #header {
     padding-top: 260px;
     height: 418px;
+    position: relative;
 }
 
 #role-page #header-wrapper #header #role-icon {
