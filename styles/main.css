@@ -1,4 +1,4 @@
-@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=5ccfe52e-ba5f-4ab8-b779-e584b4581ba4");
+﻿@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=5ccfe52e-ba5f-4ab8-b779-e584b4581ba4");
 
 /* FONTS */
 @font-face {
@@ -110,14 +110,22 @@ p.section-text {
 }
 /* Header */
 #index-page #header-wrapper {
-  height: 678px;
-  position: relative;
-  background-color: #000;
+    background-color: #000;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
 }
 
     #index-page  #header-wrapper #header {
       color: #fff;
+	  display: table-cell;
       position: relative;
+      text-align: center;
+      vertical-align: middle;
+      width: 100%;
+      z-index: 2;
     }
 
 #header-wrapper #header #links {
@@ -316,6 +324,7 @@ footer .menu li.social a img {width: 20px;}
             width: 80px !important;
         }
 
+.centeredtable { display: table; margin: 0 auto; max-width: 1200px; width: 100%; }
 /* CEM */
 #index-page #cem-wrapper #cem {
     padding-bottom: 40px;
@@ -446,7 +455,9 @@ footer .menu li.social a img {width: 20px;}
                 }
 
 /* --------------- Video ------------------------*/
-.hero .flowplayer { display:block; }
+.flowplayerwrapper { background-color:#000; width:100%; z-index:1; position:relative; }
+.backgroundplayer .flowplayer { display: block !important; margin: 0 auto; width: 100%; padding: 0; max-width:100% !important; position:absolute; top:0; }
+.flowplayer { display: block !important; margin: 0 auto; width: 100%; padding: 0; max-width: 1200px !important; }
 .fp-help + a {z-index:-1 !important;}
 
 /* --------------- Footer ------------------------*/
@@ -649,7 +660,7 @@ footer .menu li.social a img {width: 20px;}
     #index-page hr.section-delimiter {
         width: 260px; /* from 365px*/
     }
-    /* PLAY ► */
+    /* PLAY â–º */
     #index-page #video-wrapper #video hr {
         width: 265px;
     }
