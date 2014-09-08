@@ -72,12 +72,15 @@ html {
   width: 100%;
   position: relative;
   clear: both;
+  padding: 0;
 }
 
 .container {
   width: 980px;
+  position: relative;
   margin: 0 auto;
   text-align: center;
+  padding: 0;
 }
 
 h2.section-heading {
@@ -506,11 +509,11 @@ footer .menu li.social a img {width: 20px;}
     /* TODO remove background color changing */
     body {
         background-color: lightgreen;
+        padding: 0;
     }
     
     .container {
         width: 728px;    /* down from 980 px (75%) */
-        padding: 0 20px;
     }
 
     /* Fonts to 3/4 size */
@@ -520,17 +523,13 @@ footer .menu li.social a img {width: 20px;}
     #index-page h3.section-slogan                  { font-size: 36px;  /* from 48px */  }
 
     /* Jobs section */
-    #index-page #jobs-wrapper #jobs {
-        padding: 0 20px;
+    #index-page #jobs-wrapper #jobs .job {
+        margin: 0 19px 60px;
     }
-    
-        #index-page #jobs-wrapper #jobs .job {
-            margin: 0 19px 60px;
-        }
 
-        #index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
-            margin: 0 19px 60px;
-        }
+    #index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
+        margin: 0 19px 60px;
+    }
         
     #index-page #services-wrapper #services #services-list .service-item {
         /*
@@ -552,7 +551,6 @@ footer .menu li.social a img {width: 20px;}
     
     .container {
         width: 440px;
-        padding: 0;
     }
     
     /* from 120px, 24px, 150px, 48px */
@@ -622,7 +620,6 @@ footer .menu li.social a img {width: 20px;}
     
     .container {
         width: 280px;
-        padding: 0;
     }
     
     hr.section-delimiter {
