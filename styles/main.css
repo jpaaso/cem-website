@@ -1,3 +1,5 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=5ccfe52e-ba5f-4ab8-b779-e584b4581ba4");
+
 /* FONTS */
 @font-face {
     font-family: "Helvetica Neue Light";
@@ -329,41 +331,49 @@ p.section-text {
                     list-style-type: none;
                 }
 
-#index-page #footer-wrapper {
-    clear: both;
-    padding: 30px 0;
+/* --------------- Video ------------------------*/
+.hero .flowplayer { display:block; }
+.fp-help + a {z-index:-1 !important;}
+
+/* --------------- Footer ------------------------*/
+footer { background-color: #63b3e3; color: white; font-family: Arial,
+    Helvetica,"Nimbus Sans L",sans-serif;  font-size:16px;}
+footer a {
+    text-decoration: none;
+}
+.row, .footer-inner { width: 1200px; max-width: 100%; margin: 0 auto; padding: 0; }
+footer:after { background-color: #63b3e3; bottom: 0; height: 100%; position: absolute; width: 100%; z-index: -100; }
+footer .menu a { color:#fff; padding-bottom:4px; border-bottom:1px solid #fff; }
+footer .menu a:visited { color:#fff; }
+footer .menu a:link { color: #fff; }
+.footer-inner:before, .footer-inner:after { content: ""; display: table; }
+.footer-inner { box-sizing: border-box; padding-left: 10px; padding-right: 10px; word-wrap: break-word; position:relative; color:#fff; }
+.footer-inner:before, .footer-inner:after { content: ""; display: table; }
+.footer-inner .block { margin-bottom: 1.25em; margin-right: 59px; margin-top: 1.25em; }
+.footer-inner .logo { margin-top: -22px; position: absolute; right: 10px; top: 50%; }
+.logo { float: right; margin: 0; padding: 0; border:none; }
+.region-footer ul.menu { padding-left: 120px; border: 0 none; font-size:14px; line-height:20px; margin: 0; overflow: hidden; position: relative; }
+.region-footer ul.menu li { padding: 0 15px; margin: 8px 0; display: inline; float: left; list-style-image: none; list-style-type: none; margin-left: 0; white-space: nowrap; }
+footer .menu li { border-left: 1px solid #fff; }
+footer .menu li:first-child { border:none; }
+footer .menu li.social {border: none;}
+footer .menu li.social a {border: none; margin-right: 5px;}
+footer .menu li.social a img {width: 20px;}
+
+#outer-wrapper #mobile-menu-wrapper #mobile-menu-footer {
+    border: none;
+    padding-bottom: 150px;
+    background: url(../img/mobile-menu-footer-bg.jpg) left bottom no-repeat;
 }
 
-#footer-wrapper #footer {
-    text-align: left;
-    position: relative;
+#outer-wrapper #mobile-menu-wrapper #mobile-menu-footer li {
+    font-size: 20px;
+    padding-top: 25px;
 }
 
-    #footer-wrapper #footer ul {
-        margin-bottom: 100px;
-    }
-
-        #footer-wrapper #footer ul li {
-            list-style-type: none;
-            padding: 10px 0;
-        }
-
-        #footer-wrapper #footer ul li a {
-            text-decoration: none;
-
-            color: #fff;
-        }
-    
-        #footer-wrapper #footer p {
-            color: #fff;
-        }
-    
-    #footer-wrapper #footer .footer-logo {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;    
-        width: 60px;
-    }
+#outer-wrapper #mobile-menu-wrapper #mobile-menu-footer li:first-child {
+    padding-top: 0;
+}
     
 /* TABLET */
 /* The container width will be 768px in this case  so you must count with it. */
