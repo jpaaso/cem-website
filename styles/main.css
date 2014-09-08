@@ -28,6 +28,8 @@
         url("../fonts/2e170156-a84c-48cf-bc19-5c5c4db18b03.svg#2e170156-a84c-48cf-bc19-5c5c4db18b03") format("svg");
 }
 
+.backgroundplayer .fp-controls { visibility:hidden; display:none; }
+
 /* General styles */
 .color-blue   { color: #62b3e5; }
 .color-red    { color: #e56385; }
