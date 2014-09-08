@@ -1,7 +1,7 @@
 /* ROLE PAGE */
 
 #role-page #header-wrapper #header #links #button-back {
-    background: url(../images/button-arrow-left.png) 10px 20px no-repeat;
+    background: url(../images/button-arrow-left.png) 10px 20px no-repeat #6cc04a;
 
 }
 #role-page #header-wrapper {
@@ -10,16 +10,6 @@
 	background-color: black;
 	color: white;
 }
-.designer.wrapper { background:url("../images/rolepictures/designer.jpg") no-repeat center center; }
-.analyst.wrapper { background:url("../images/rolepictures/analyst.jpg") no-repeat center center; }
-.architect.wrapper { background:url("../images/rolepictures/Architect.jpg") no-repeat center center; }
-.businessConsultant.wrapper { background:url("../images/rolepictures/BusinessConsultant.jpg") no-repeat center center; }
-.developer.wrapper { background:url("../images/rolepictures/Developer.jpg") no-repeat center center; }
-.projectManager.wrapper { background:url("../images/rolepictures/ProjectManager.jpg") no-repeat center center; }
-.salesLead.wrapper { background:url("../images/rolepictures/SalesLead.jpg") no-repeat center center; }
-.solutionHead.wrapper { background:url("../images/rolepictures/SolutionHead.jpg") no-repeat center center; }
-.technologyConsultant.wrapper { background:url("../images/rolepictures/TechnologyConsultant.jpg") no-repeat center center; }
-                                                                                          
 	#role-page #header-wrapper #header {
 		padding-top: 260px;
 		height: 418px;
@@ -68,6 +58,12 @@
 		font-size: 35px;
 		height: 250px;
 	}
+
+
+#role-page #cem-wrapper #cem ul { width: 100%; list-style-type: none; margin-top: 0; float: left; margin-bottom: 30px;}
+
+#role-page #cem-wrapper #cem ul li { margin-bottom: 20px;}
+
 
 /* VIDEO */
 #role-page #video-wrapper {
