@@ -1,4 +1,9 @@
 /* ROLE PAGE */
+
+#role-page #header-wrapper #header #links #button-back {
+    background: url(../images/button-arrow-left.png) 10px 20px no-repeat #6cc04a;
+
+}
 #role-page #header-wrapper {
 	/*height: 678px;*/
 	/*position: relative;*/
@@ -88,29 +93,34 @@
 		}
 
 /* Apply */
-#role-page #apply-wrapper img {
-	margin-top: 65px;
+#role-page #apply-wrapper {
+	height: 750px;
 }
-#role-page #apply-wrapper a {
-	margin-top: 25px;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #62b3e5;
-	font-size: 50px;
-	font-weight: bold;
-}
-#role-page #apply-wrapper h3 {
-	font-family: "Helvetica Neue Light";
-	text-decoration: none;
-	color: #62b3e5;
-	font-size: 35px;
-}
+	#role-page #apply-wrapper img {
+		margin-top: 65px;
+	}
+	#role-page #apply-wrapper a {
+		margin-top: 25px;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #62b3e5;
+		font-size: 50px;
+		font-weight: bold;
+	}
+	#role-page #apply-wrapper h3 {
+		margin-top: 65px;
+		font-family: "Helvetica Neue Light";
+		text-decoration: none;
+		color: #62b3e5;
+		font-size: 35px;
+	}
 
-#role-page #apply-wrapper p {
-	font-family: "Helvetica Neue Light";
-	text-decoration: none;
-	font-size: 22px;
-}
+	#role-page #apply-wrapper p {
+		margin-top: 30px;
+		font-family: "Helvetica Neue Light";
+		text-decoration: none;
+		font-size: 22px;
+	}
 
 
 
