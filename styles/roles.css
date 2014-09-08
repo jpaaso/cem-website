@@ -94,7 +94,7 @@
 
 /* Apply */
 #role-page #apply-wrapper {
-	height: 750px;
+	padding-bottom: 20px;
 }
 	#role-page #apply-wrapper img {
 		margin-top: 65px;
@@ -125,7 +125,7 @@
 
 
 @media screen and (max-width: 1023px) {
-	#role-page #header-wrapper { height: auto; float: left; width: 100%;}
+	#role-page #header-wrapper { height: auto; width: 100%;}
 	#role-page #header-wrapper #header { height: auto; padding-bottom: 120px;}
 	#role-page #header-wrapper #header h1 { font-size: 50px; padding: 0; height: auto;}
 	#role-page #header-wrapper #header h2 { font-size: 60px; padding: 0; height: auto;}
