@@ -88,6 +88,7 @@ h3.section-slogan {
     font-size: 48px;
     padding-bottom: 30px;
 }
+
 hr.section-delimiter {
     width: 365px;
     height: 1px;
@@ -398,20 +399,19 @@ p.section-text {
 /* The container width will be 480px in this case so you must count with it. */
 @media screen and (max-width: 767px) {
     body {
-        background-color: lightblue;
+        background-color: lightpink;
     }
     
     .container {
         width: 440px;
-        padding: 0 20px;
+        padding: 0;
     }
     
     /* from 120px, 24px, 150px, 48px */
     #header-wrapper #header #slogan h1 { font-size: 70px; line-height: 80px; }
     #header-wrapper #header #slogan h2 { font-size: 12px; }
     h2.section-heading { 
-        font-size: 80px; 
-        /*margin-left: -25px;*/
+        font-size: 80px;
     }
     /*h3.section-slogan                  { font-size: 30px; }*/
 
@@ -429,7 +429,7 @@ p.section-text {
 
     /* Jobs section */
     #jobs-wrapper #jobs {
-        padding: 0 20px;
+        padding: 0;
         width: 440px;
     }
     
@@ -458,6 +458,10 @@ p.section-text {
             font-size: 15px;
         }
    
+    #footer-wrapper #footer {
+        padding: 0;
+        width: 440px;
+    }
 }
 
 /* MOBILE */
@@ -469,7 +473,7 @@ p.section-text {
     
     .container {
         width: 280px;
-        padding: 0 20px;
+        padding: 0;
     }
     
     hr.section-delimiter {
@@ -493,8 +497,7 @@ p.section-text {
     #header-wrapper #header #slogan h1 { font-size: 60px; line-height: 60px; }
     #header-wrapper #header #slogan h2 { font-size: 20px; }
     h2.section-heading { 
-        font-size: 60px; 
-        margin-left: -25px;
+        font-size: 48px;
     }
     h3.section-slogan { font-size: 30px;  /* from 48px */  }
     p.section-text { font-size: 18px; }
@@ -516,7 +519,7 @@ p.section-text {
     }
     /* Jobs section */
     #jobs-wrapper #jobs {
-        padding: 0 20px;
+        padding: 0;
         width: 280px;
     }
     
@@ -548,6 +551,9 @@ p.section-text {
             font-size: 18px;
         }
 
+    #footer-wrapper #footer {
+        width: 280px;
+    }
 }
     
     
