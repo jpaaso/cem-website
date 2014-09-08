@@ -700,7 +700,35 @@ footer .menu li.social a img {width: 20px;}
     
 /* ROLE PAGE */
 #role-page #header-wrapper #header {
-    padding-top: 260px;
-    height: 418px;
-    position: relative;
+padding-top: 260px;
+height: 418px;
+position: relative;
+}
+
+#role-page #header-wrapper #header #role-icon {
+position: absolute;
+top: 53px;
+left: 0;
+}
+
+#role-page #header-wrapper #header h1 {
+font-family: "Helvetica Neue Bold";
+font-size: 50px;
+text-transform: uppercase;
+text-align: left;
+height: 50px;
+}
+
+#role-page #header-wrapper #header h2 {
+font-family: "Helvetica Neue Bold";
+font-size: 75px;
+text-align: left;
+height: 75px;
+}
+
+#role-page #header-wrapper #header p {
+line-height: 30px;
+font-size: 20px;
+text-align: left;
+padding: 70px 0 43px;
 }
