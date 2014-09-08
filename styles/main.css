@@ -402,7 +402,7 @@ p.section-text {
 /* The container width will be 480px in this case so you must count with it. */
 @media screen and (max-width: 767px) {
     body {
-        background-color: lightpink;
+        background-color: lightblue;
     }
     
     .container {
