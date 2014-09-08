@@ -203,7 +203,7 @@ footer a {
 }
 .row, .footer-inner { width: 1200px; max-width: 100%; margin: 0 auto; padding: 0; }
 footer:after { background-color: #63b3e3; bottom: 0; height: 100%; position: absolute; width: 100%; z-index: -100; }
-footer .menu a { color:#fff; padding-bottom:4px; border-bottom:1px solid #fff; }
+footer .menu a { color:#fff; padding-bottom:4px; border-bottom:0px solid #fff; }
 footer .menu a:visited { color:#fff; }
 footer .menu a:link { color: #fff; }
 .footer-inner:before, .footer-inner:after { content: ""; display: table; }
@@ -214,7 +214,7 @@ footer .menu a:link { color: #fff; }
 .logo { float: right; margin: 0; padding: 0; border:none; }
 .region-footer ul.menu { padding-left: 120px; border: 0 none; font-size:14px; line-height:20px; margin: 0; overflow: hidden; position: relative; }
 .region-footer ul.menu li { padding: 0 15px; margin: 8px 0; display: inline; float: left; list-style-image: none; list-style-type: none; margin-left: 0; white-space: nowrap; }
-footer .menu li { border-left: 1px solid #fff; }
+footer .menu li { border-left: 0px solid #fff; }
 footer .menu li:first-child { border:none; }
 footer .menu li.social {border: none;}
 footer .menu li.social a {border: none; margin-right: 5px;}
@@ -468,7 +468,7 @@ footer a {
 }
 .row, .footer-inner { width: 1200px; max-width: 100%; margin: 0 auto; padding: 0; }
 footer:after { background-color: #63b3e3; bottom: 0; height: 100%; position: absolute; width: 100%; z-index: -100; }
-footer .menu a { color:#fff; padding-bottom:4px; border-bottom:1px solid #fff; }
+footer .menu a { color:#fff; padding-bottom:4px; border-bottom:0px solid #fff; }
 footer .menu a:visited { color:#fff; }
 footer .menu a:link { color: #fff; }
 .footer-inner:before, .footer-inner:after { content: ""; display: table; }
@@ -479,7 +479,7 @@ footer .menu a:link { color: #fff; }
 .logo { float: right; margin: 0; padding: 0; border:none; }
 .region-footer ul.menu { padding-left: 120px; border: 0 none; font-size:14px; line-height:20px; margin: 0; overflow: hidden; position: relative; }
 .region-footer ul.menu li { padding: 0 15px; margin: 8px 0; display: inline; float: left; list-style-image: none; list-style-type: none; margin-left: 0; white-space: nowrap; }
-footer .menu li { border-left: 1px solid #fff; }
+footer .menu li { border-left: 0px solid #fff; }
 footer .menu li:first-child { border:none; }
 footer .menu li.social {border: none;}
 footer .menu li.social a {border: none; margin-right: 5px;}
