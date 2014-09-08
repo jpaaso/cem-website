@@ -107,62 +107,63 @@ p.section-text {
     font-size: 22px;
 }
 /* Header */
-#header-wrapper {
+#index-page #header-wrapper {
   height: 678px;
   position: relative;
   background-color: #000;
 }
 
-    #header-wrapper #header {
+    #index-page  #header-wrapper #header {
       color: #fff;
+      position: relative;
     }
     
-    #header-wrapper #header #logo {
+    #index-page #header-wrapper #header #logo {
         height: 184px;
         width: 100%;
         border-bottom: 1px solid #fff;
         text-align: left;
     }
     
-        #header-wrapper #header #logo p {
+        #index-page #header-wrapper #header #logo p {
             padding-top: 78px;
         }
         
-            #header-wrapper #header #logo p img {
+            #index-page #header-wrapper #header #logo p img {
                 padding-right: 27px;
                 border: none;
             }
     
-    #header-wrapper #header #slogan {
+    #index-page #header-wrapper #header #slogan {
         height: 308px;
         width: 100%;
         text-align: left;
     }
     
-        #header-wrapper #header #slogan h1 {
+        #index-page #header-wrapper #header #slogan h1 {
             font-size: 120px;
             font-family: "Helvetica Neue Bold";
             padding-top: 20px;
             line-height: 105px;
         }
         
-        #header-wrapper #header #slogan h2 {
+        #index-page #header-wrapper #header #slogan h2 {
             font-size: 24px;
             font-family: "Helvetica Neue Bold";
             padding: 15px 0 0 8px;
         }
     
-    #header-wrapper #header #links {
+    #index-page #header-wrapper #header #links {
         height: 184px;
         border-top: 1px solid #fff;
         width: 100%;
     }
     
-        #header-wrapper #header #links .buttons {
+        #index-page #header-wrapper #header #links .buttons {
             margin-top: 60px;
         }
         
-            #header-wrapper #header #links .buttons li {
+            #index-page #header-wrapper #header #links .buttons li {
                 float: left;
                 list-style-type: none;
                 list-style-position: inside;
@@ -170,7 +171,7 @@ p.section-text {
                 margin: 0 8px;
             }
             
-                #header-wrapper #header #links .buttons li a {
+                #index-page #header-wrapper #header #links .buttons li a {
                     display: block;
                     width: 174px;
                     height: 46px;
@@ -183,28 +184,28 @@ p.section-text {
                     background: url(../images/button-arrow.png) center 35px no-repeat;
                 }
                 
-    #header-wrapper #social {
+    #index-page #header-wrapper #social {
         position: absolute;
         bottom: 20px;
         right: 20px;
     }
 
 /* CEM */
-#cem-wrapper #cem {
+#index-page #cem-wrapper #cem {
     padding-bottom: 40px;
 }
 
-    #cem-wrapper #cem h2 {
+    #index-page #cem-wrapper #cem h2 {
         margin-top: 120px;
     }
      
 /* VIDEO */
-#video-wrapper {
+#index-page #video-wrapper {
     height: 678px;
     background-color: #000;
 }
     
-    #video-wrapper #video a {
+    #index-page #video-wrapper #video a {
         text-decoration: none;
         color: #00b3ee;
         font-size: 150px;
@@ -216,110 +217,109 @@ p.section-text {
         display: block;
     }
     
-    #video-wrapper #video hr {
+    #index-page #video-wrapper #video hr {
         width: 365px;
         border: none;
         margin: 0 auto;
         height: 236px;
     }
     
-    #video-wrapper #video hr.border-bottom {
+    #index-page #video-wrapper #video hr.border-bottom {
         border-bottom: 1px solid #e56385;
     }
     
-    #video-wrapper #video hr.border-top {
+    #index-page #video-wrapper #video hr.border-top {
         border-top: 1px solid #e56385;
     }
     
 /* CAREERS */
-#careers-wrapper #careers h2 {
+#index-page #careers-wrapper #careers h2 {
     margin-top: 120px;
 }
 
 /* JOBS */
-#jobs-wrapper #jobs .job {
+#index-page #jobs-wrapper #jobs .job {
     float: left;
     width: 306px;
     margin: 0 0 60px 31px;
 }
 
-#jobs-wrapper #jobs .job:nth-child(3n+1) {
+#index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
     margin-left: 0;
 }
 
-    #jobs-wrapper #jobs .job .role-adjective {
+    #index-page #jobs-wrapper #jobs .job .role-adjective {
         font-size: 24px;
         font-family: "Helvetica Neue Bold";
         text-transform: uppercase;
         padding: 20px 0 10px;
     }
     
-    #jobs-wrapper #jobs .job .role {
+    #index-page #jobs-wrapper #jobs .job .role {
         font-size: 35px;
         font-family: "Helvetica Neue Bold";
         padding-bottom: 10px;
     }
     
-    #jobs-wrapper #jobs .job .read-more {
+    #index-page #jobs-wrapper #jobs .job .read-more {
         font-size: 14px;
         font-family: "Helvetica Neue Bold";
     }
     
 /* SERVICES */
-#services-wrapper #services {
+#index-page #services-wrapper #services {
     padding-bottom: 100px;
 }
 
-    #services-wrapper #services h2 {
+    #index-page #services-wrapper #services h2 {
         margin-top: 120px;
     }
 
-    #services-wrapper #services #services-list {
+    #index-page #services-wrapper #services #services-list {
         height: auto;
         float: left;
         clear: both;
         display: block;
     }
 
-        #services-wrapper #services .service-item {
+        #index-page #services-wrapper #services .service-item {
             float: left;
             width: 204px;
             padding: 0 20px;
             /*border-left: 1px solid #62b3e5;*/
             height: 470px;
-
         }
 
-        #services-wrapper #services .service-item:first-child {
+        #index-page #services-wrapper #services .service-item:first-child {
             width: 205px;
             border-left: none;
         }
 
-            #services-wrapper #services .service-item h2 {
+            #index-page #services-wrapper #services .service-item h2 {
                 font-size: 60px;
                 font-family: "Helvetica Neue Bold";
                 margin: 0;
                 padding: 0;
             }
 
-            #services-wrapper #services .service-item h3 {
+            #index-page #services-wrapper #services .service-item h3 {
                 font-size: 22px;
                 font-family: "Helvetica Neue Light";
                 font-weight: normal;
                 height: 40px;
             }
 
-            #services-wrapper #services .service-item ul {
+            #index-page #services-wrapper #services .service-item ul {
                 height: 100%;
             }
 
-                #services-wrapper #services .service-item ul li {
+                #index-page #services-wrapper #services .service-item ul li {
                     font-size: 16px;
                     padding: 15px 0;
                     list-style-type: none;
                 }
 
-#footer-wrapper {
+#index-page #footer-wrapper {
     clear: both;
     padding: 30px 0;
 }
@@ -347,12 +347,14 @@ p.section-text {
         #footer-wrapper #footer p {
             color: #fff;
         }
+    
     #footer-wrapper #footer .footer-logo {
         position: absolute;
         bottom: 0px;
         right: 0px;    
         width: 60px;
     }
+    
 /* TABLET */
 /* The container width will be 768px in this case  so you must count with it. */
 @media screen and (max-width: 1023px) {
@@ -367,25 +369,25 @@ p.section-text {
     }
 
     /* Fonts to 3/4 size */
-    #header-wrapper #header #slogan h1 { font-size: 90px;  /* from 120px */ }
-    #header-wrapper #header #slogan h2 { font-size: 19px;  /* from 24 px */ }
-    h2.section-heading                 { font-size: 108px; /* from 150px */ }
-    h3.section-slogan                  { font-size: 36px;  /* from 48px */  }
+    #index-page #header-wrapper #header #slogan h1 { font-size: 90px;  /* from 120px */ }
+    #index-page #header-wrapper #header #slogan h2 { font-size: 19px;  /* from 24 px */ }
+    #index-page h2.section-heading                 { font-size: 108px; /* from 150px */ }
+    #index-page h3.section-slogan                  { font-size: 36px;  /* from 48px */  }
 
     /* Jobs section */
-    #jobs-wrapper #jobs {
+    #index-page #jobs-wrapper #jobs {
         padding: 0 20px;
     }
     
-        #jobs-wrapper #jobs .job {
+        #index-page #jobs-wrapper #jobs .job {
             margin: 0 19px 60px;
         }
 
-        #jobs-wrapper #jobs .job:nth-child(3n+1) {
+        #index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
             margin: 0 19px 60px;
         }
         
-    #services-wrapper #services #services-list .service-item {
+    #index-page #services-wrapper #services #services-list .service-item {
         /*
         728 is the width of the container space / 2 = 364px for each element on the row
         364 space for an el in the container - (205 width of the element + 40 padding on the left and right) = 119px
@@ -409,40 +411,40 @@ p.section-text {
     }
     
     /* from 120px, 24px, 150px, 48px */
-    #header-wrapper #header #slogan h1 { font-size: 70px; line-height: 80px; }
-    #header-wrapper #header #slogan h2 { font-size: 12px; }
-    h2.section-heading { 
+    #index-page #header-wrapper #header #slogan h1 { font-size: 70px; line-height: 80px; }
+    #index-page #header-wrapper #header #slogan h2 { font-size: 12px; }
+    #index-page h2.section-heading { 
         font-size: 80px;
     }
     /*h3.section-slogan                  { font-size: 30px; }*/
 
     /* Buttons */
-    #header-wrapper #header #links .buttons li a {
+    #index-page #header-wrapper #header #links .buttons li a {
         width: 100px;
         height: 46px;
         font-size: 19px;
     }
 
-    #video-wrapper #video a {
+    #index-page #video-wrapper #video a {
         font-size: 115px;
         width: 440px;
     }
 
     /* Jobs section */
-    #jobs-wrapper #jobs {
+    #index-page #jobs-wrapper #jobs {
         padding: 0;
         width: 440px;
     }
     
-        #jobs-wrapper #jobs .job {
+        #index-page #jobs-wrapper #jobs .job {
             margin: 0 67px 60px;
         }
 
-        #jobs-wrapper #jobs .job:nth-child(3n+1) {
+        #index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
             margin: 0 67px 60px;
         }
         
-    #services-wrapper #services #services-list .service-item {
+    #index-page #services-wrapper #services #services-list .service-item {
         /*
         440 is the width of the container space / 2 = 220px for each element on the row
         220 space for an el in the container - (200 width of the element + 20 padding on the left and right) =  0
@@ -452,10 +454,11 @@ p.section-text {
         margin: 0 0 40px;
         padding: 0 10px;
     }
-        #services-wrapper #services #services-list .service-item h2 {
+        #index-page #services-wrapper #services #services-list .service-item h2 {
             font-size: 50px;
         }
-        #services-wrapper #services .service-item h3 {
+        
+        #index-page #services-wrapper #services .service-item h3 {
             font-size: 15px;
         }
    
@@ -484,56 +487,59 @@ p.section-text {
         margin: 30px auto 60px;
     }
     
-    #header-wrapper #header #slogan {
+    #index-page #header-wrapper #header #slogan {
         height: 326px;
     }
-    #header-wrapper #header #logo p img {
+    
+    #index-page #header-wrapper #header #logo p img {
         width: 60px;
-    }    
-    #header-wrapper #header #logo p {
+    }
+    
+    #index-page #header-wrapper #header #logo p {
         font-size: 10px;
     }    
 
     /* from 120px, 24px, 150px, 48px */
-    #header-wrapper #header #slogan h1 { font-size: 60px; line-height: 60px; }
-    #header-wrapper #header #slogan h2 { font-size: 20px; }
-    h2.section-heading { 
+    #index-page #header-wrapper #header #slogan h1 { font-size: 60px; line-height: 60px; }
+    #index-page #header-wrapper #header #slogan h2 { font-size: 20px; }
+    #index-page h2.section-heading { 
         font-size: 48px;
     }
-    h3.section-slogan { font-size: 30px;  /* from 48px */  }
-    p.section-text { font-size: 18px; }
+    
+    #index-page h3.section-slogan { font-size: 30px;  /* from 48px */  }
+    #index-page p.section-text { font-size: 18px; }
     /* Buttons */
-    #header-wrapper #header #links .buttons {
+    #index-page #header-wrapper #header #links .buttons {
         visibility: hidden;
     }
-    hr.section-delimiter {
+    #index-page hr.section-delimiter {
         width: 260px; /* from 365px*/
     }
     /* PLAY ► */
-    #video-wrapper #video hr {
+    #index-page #video-wrapper #video hr {
         width: 265px;
     }
-    #video-wrapper #video a {
+    #index-page #video-wrapper #video a {
         font-size: 60px;
         width: 280px;
         margin-left: 0px;
     }
     /* Jobs section */
-    #jobs-wrapper #jobs {
+    #index-page #jobs-wrapper #jobs {
         padding: 0;
         width: 280px;
     }
     
-        #jobs-wrapper #jobs .job {
+        #index-page #jobs-wrapper #jobs .job {
             width: 280px;
             margin: 0 0 60px;
         }
 
-        #jobs-wrapper #jobs .job:nth-child(3n+1) {
+        #index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
             margin: 0 0 60px;
         }
         
-    #services-wrapper #services #services-list .service-item {
+    #index-page #services-wrapper #services #services-list .service-item {
         /*
         280 is the width of the container space / 1 = 280px for each element on the row
         280 space for an el in the container - (200 width of the element + 20 padding on the left and right) =  0
@@ -545,10 +551,11 @@ p.section-text {
         height: auto;
     }
     
-        #services-wrapper #services #services-list .service-item h2 {
+        #index-page #services-wrapper #services #services-list .service-item h2 {
             font-size: 40px;
         }
-        #services-wrapper #services .service-item h3 {
+        
+        #index-page #services-wrapper #services .service-item h3 {
             font-size: 18px;
         }
 
@@ -557,5 +564,6 @@ p.section-text {
     }
 }
     
+/* ROLE PAGE */
     
 
