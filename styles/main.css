@@ -189,6 +189,16 @@ p.section-text {
         bottom: 20px;
         right: 20px;
     }
+    
+        #index-page #header-wrapper #social div,
+        #index-page #header-wrapper #social span,
+        #index-page #header-wrapper #social iframe {
+            float: left;
+        }
+        
+        #index-page #header-wrapper #social .twitter-share-button {
+            width: 80px !important;
+        }
 
 /* CEM */
 #index-page #cem-wrapper #cem {
