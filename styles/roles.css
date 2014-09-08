@@ -94,7 +94,7 @@
 
 /* Apply */
 #role-page #apply-wrapper {
-	height: 750px;
+	padding-bottom: 20px;
 }
 	#role-page #apply-wrapper img {
 		margin-top: 65px;
