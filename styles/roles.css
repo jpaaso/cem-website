@@ -5,88 +5,112 @@
 	background-color: black;
 	color: white;
 }
-#role-page #header-wrapper #header {
-	padding-top: 260px;
-	height: 418px;
-	position: relative;
-}
+	#role-page #header-wrapper #header {
+		padding-top: 260px;
+		height: 418px;
+		position: relative;
+	}
 
-#role-page #header-wrapper #header #role-icon {
-	position: absolute;
-	top: 53px;
-	left: 0;
-}
+		#role-page #header-wrapper #header #role-icon {
+			position: absolute;
+			top: 53px;
+			left: 0;
+		}
 
-#role-page #header-wrapper #header h1 {
-	font-family: "Helvetica Neue Bold";
-	font-size: 50px;
-	text-transform: uppercase;
-	text-align: left;
-	height: 50px;
-}
+		#role-page #header-wrapper #header h1 {
+			font-family: "Helvetica Neue Bold";
+			font-size: 50px;
+			text-transform: uppercase;
+			text-align: left;
+			height: 50px;
+		}
 
-#role-page #header-wrapper #header h2 {
-	font-family: "Helvetica Neue Bold";
-	font-size: 75px;
-	text-align: left;
-	height: 75px;
-}
+		#role-page #header-wrapper #header h2 {
+			font-family: "Helvetica Neue Bold";
+			font-size: 75px;
+			text-align: left;
+			height: 75px;
+		}
+		#role-page #header-wrapper #header p {
+			line-height: 30px;
+			font-size: 20px;
+			text-align: left;
+			padding: 70px 0 43px;
+		}
+
 /* CEM */
 #roles-page #cem-wrapper #cem {
     padding-bottom: 40px;
+    text-align: center;
 }
 
     #roles-page #cem-wrapper #cem h2 {
         margin-top: 120px;
     }
-#role-page #cem-wrapper h3 {
-	font-family: "Helvetica Neue Light";
-	font-size: 35px;
-	text-align: left;
-	height: 250px;
-}
 
-#role-page #header-wrapper #header p {
-	line-height: 30px;
-	font-size: 20px;
-	text-align: left;
-	padding: 70px 0 43px;
-}
+	#role-page #cem-wrapper h3 {
+		font-family: "Helvetica Neue Light";
+		font-size: 35px;
+		height: 250px;
+	}
+
 /* VIDEO */
 #role-page #video-wrapper {
 	height: 678px;
 	background-color: #000;
 }
 
-#role-page #video-wrapper #video a {
-	text-decoration: none;
-	color: #6cc04a;
-	font-size: 150px;
+	#role-page #video-wrapper #video a {
+		text-decoration: none;
+		color: #6cc04a;
+		font-size: 150px;
+		text-transform: uppercase;
+		font-family: "Helvetica Neue Bold";
+		line-height: 205px;
+		margin: 0 auto;
+		width: 600px;
+		display: block;
+	}
+
+	#role-page #video-wrapper #video hr {
+		width: 365px;
+		border: none;
+		margin: 0 auto;
+		height: 236px;
+	}
+
+		#role-page #video-wrapper #video hr.border-bottom {
+			border-bottom: 1px solid #6cc04a;
+		}
+
+		#role-page #video-wrapper #video hr.border-top {
+			border-top: 1px solid #6cc04a;
+		}
+
+/* Apply */
+#role-page #apply-wrapper img {
+	margin-top: 65px;
+}
+#role-page #apply-wrapper a {
+	margin-top: 25px;
 	text-transform: uppercase;
-	font-family: "Helvetica Neue Bold";
-	line-height: 205px;
-	margin: 0 auto;
-	width: 600px;
-	display: block;
+	text-decoration: none;
+	color: #62b3e5;
+	font-size: 50px;
+	font-weight: bold;
+}
+#role-page #apply-wrapper h3 {
+	font-family: "Helvetica Neue Light";
+	text-decoration: none;
+	color: #62b3e5;
+	font-size: 35px;
 }
 
-#role-page #video-wrapper #video hr {
-	width: 365px;
-	border: none;
-	margin: 0 auto;
-	height: 236px;
+#role-page #apply-wrapper p {
+	font-family: "Helvetica Neue Light";
+	text-decoration: none;
+	font-size: 22px;
 }
-
-#role-page #video-wrapper #video hr.border-bottom {
-	border-bottom: 1px solid #6cc04a;
-}
-
-#role-page #video-wrapper #video hr.border-top {
-	border-top: 1px solid #6cc04a;
-}
-
-
-
 
 
 
