@@ -506,11 +506,6 @@ footer .menu li.social a img {width: 20px;}
 /* TABLET */
 /* The container width will be 768px in this case  so you must count with it. */
 @media screen and (max-width: 1023px) {
-    /* TODO remove background color changing */
-    body {
-        background-color: lightgreen;
-        padding: 0;
-    }
     
     .container {
         width: 728px;    /* down from 980 px (75%) */
@@ -545,9 +540,6 @@ footer .menu li.social a img {width: 20px;}
 /* SMARTPHONE */
 /* The container width will be 480px in this case so you must count with it. */
 @media screen and (max-width: 767px) {
-    body {
-        background-color: lightblue;
-    }
     
     .container {
         width: 440px;
@@ -614,9 +606,6 @@ footer .menu li.social a img {width: 20px;}
 /* MOBILE */
 /* The container width will be 320px in this case so you must count with it. */
 @media screen and (max-width: 479px) {
-    body {
-        background-color: lightpink;
-    }
     
     .container {
         width: 280px;
