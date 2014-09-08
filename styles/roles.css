@@ -10,6 +10,16 @@
 	background-color: black;
 	color: white;
 }
+.designer.wrapper { background:url("../images/rolepictures/designer.jpg") no-repeat center center; }
+.analyst.wrapper { background:url("../images/rolepictures/analyst.jpg") no-repeat center center; }
+.architect.wrapper { background:url("../images/rolepictures/Architect.jpg") no-repeat center center; }
+.businessConsultant.wrapper { background:url("../images/rolepictures/BusinessConsultant.jpg") no-repeat center center; }
+.developer.wrapper { background:url("../images/rolepictures/Developer.jpg") no-repeat center center; }
+.projectManager.wrapper { background:url("../images/rolepictures/ProjectManager.jpg") no-repeat center center; }
+.salesLead.wrapper { background:url("../images/rolepictures/SalesLead.jpg") no-repeat center center; }
+.solutionHead.wrapper { background:url("../images/rolepictures/SolutionHead.jpg") no-repeat center center; }
+.technologyConsultant.wrapper { background:url("../images/rolepictures/TechnologyConsultant.jpg") no-repeat center center; }
+                                                                                          
 	#role-page #header-wrapper #header {
 		padding-top: 260px;
 		height: 418px;
@@ -94,7 +104,7 @@
 
 /* Apply */
 #role-page #apply-wrapper {
-	padding-bottom: 20px;
+	height: 750px;
 }
 	#role-page #apply-wrapper img {
 		margin-top: 65px;
@@ -125,7 +135,7 @@
 
 
 @media screen and (max-width: 1023px) {
-	#role-page #header-wrapper { height: auto; width: 100%;}
+	#role-page #header-wrapper { height: auto; float: left; width: 100%;}
 	#role-page #header-wrapper #header { height: auto; padding-bottom: 120px;}
 	#role-page #header-wrapper #header h1 { font-size: 50px; padding: 0; height: auto;}
 	#role-page #header-wrapper #header h2 { font-size: 60px; padding: 0; height: auto;}
