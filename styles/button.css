@@ -114,6 +114,15 @@
 
 /* LINKS */
 
+.job a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #6cc04a;
+} 
+.job a:hover { color: #6cc04a;}
+
+.job a:hover .read-more{ color: #e75f83;}
+
 .read-more {
     cursor: pointer;
 }
