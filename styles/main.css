@@ -28,8 +28,6 @@
         url("../fonts/2e170156-a84c-48cf-bc19-5c5c4db18b03.svg#2e170156-a84c-48cf-bc19-5c5c4db18b03") format("svg");
 }
 
-.backgroundplayer .fp-controls { visibility:hidden; display:none; }
-
 /* General styles */
 .color-blue   { color: #62b3e5; }
 .color-red    { color: #e56385; }
@@ -74,15 +72,12 @@ html {
   width: 100%;
   position: relative;
   clear: both;
-  padding: 0;
 }
 
 .container {
   width: 980px;
-  position: relative;
   margin: 0 auto;
   text-align: center;
-  padding: 0;
 }
 
 h2.section-heading {
@@ -217,7 +212,7 @@ footer .menu a:link { color: #fff; }
 .footer-inner .block { margin-bottom: 1.25em; margin-right: 59px; margin-top: 1.25em; }
 .footer-inner .logo { margin-top: -22px; position: absolute; right: 10px; top: 50%; }
 .logo { float: right; margin: 0; padding: 0; border:none; }
-.region-footer ul.menu { padding-left: 58px; border: 0 none; font-size:14px; line-height:20px; margin: 0; overflow: hidden; position: relative; }
+.region-footer ul.menu { padding-left: 120px; border: 0 none; font-size:14px; line-height:20px; margin: 0; overflow: hidden; position: relative; }
 .region-footer ul.menu li { padding: 0 15px; margin: 8px 0; display: inline; float: left; list-style-image: none; list-style-type: none; margin-left: 0; white-space: nowrap; }
 footer .menu li { border-left: 0px solid #fff; }
 footer .menu li:first-child { border:none; }
@@ -271,7 +266,7 @@ footer .menu li.social a img {width: 20px;}
     
         #index-page #header-wrapper #header #slogan h1 {
             font-size: 120px;
-            font-family: "Helvetica Neue Bold";
+            font-family: "Helvetica Neue Roman";
             padding-top: 45px;
             line-height: 105px;
         }
@@ -482,8 +477,8 @@ footer .menu a:link { color: #fff; }
 .footer-inner .block { margin-bottom: 1.25em; margin-right: 59px; margin-top: 1.25em; }
 .footer-inner .logo { margin-top: -22px; position: absolute; right: 10px; top: 50%; }
 .logo { float: right; margin: 0; padding: 0; border:none; }
-.region-footer ul.menu { padding-left: 58px; border: 0 none; font-size:14px; line-height:20px; margin: 0; overflow: hidden; position: relative; }
-.region-footer ul.menu li { padding: 0 15px; margin: 8px 0; display: inline; float: left; list-style-image: none; list-style-type: none; margin-left: 0; white-space: nowrap; }
+
+.region-footer ul.menu li { padding: 0 15px; margin: 8px 0; display: inline; float: left; list-style-image: none; li.region-footer ul.menu { padding-left: 120px; border: 0 none; font-size:14px; line-height:20px; margin: 0; overflow: hidden; position: relative; }st-style-type: none; margin-left: 0; white-space: nowrap; }
 footer .menu li { border-left: 0px solid #fff; }
 footer .menu li:first-child { border:none; }
 footer .menu li.social {border: none;}
@@ -508,9 +503,14 @@ footer .menu li.social a img {width: 20px;}
 /* TABLET */
 /* The container width will be 768px in this case  so you must count with it. */
 @media screen and (max-width: 1023px) {
+    /* TODO remove background color changing */
+    body {
+        background-color: lightgreen;
+    }
     
     .container {
         width: 728px;    /* down from 980 px (75%) */
+        padding: 0 20px;
     }
 
     /* Fonts to 3/4 size */
@@ -520,13 +520,17 @@ footer .menu li.social a img {width: 20px;}
     #index-page h3.section-slogan                  { font-size: 36px;  /* from 48px */  }
 
     /* Jobs section */
-    #index-page #jobs-wrapper #jobs .job {
-        margin: 0 19px 60px;
+    #index-page #jobs-wrapper #jobs {
+        padding: 0 20px;
     }
+    
+        #index-page #jobs-wrapper #jobs .job {
+            margin: 0 19px 60px;
+        }
 
-    #index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
-        margin: 0 19px 60px;
-    }
+        #index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
+            margin: 0 19px 60px;
+        }
         
     #index-page #services-wrapper #services #services-list .service-item {
         /*
@@ -542,9 +546,14 @@ footer .menu li.social a img {width: 20px;}
 /* SMARTPHONE */
 /* The container width will be 480px in this case so you must count with it. */
 @media screen and (max-width: 767px) {
+    body {
+        background-color: lightblue;
+    }
     
     .container {
-        width: 440px;
+        width: calc(100% - 20px);
+        padding: 0 10px;
+       
     }
     
     /* from 120px, 24px, 150px, 48px */
@@ -564,13 +573,13 @@ footer .menu li.social a img {width: 20px;}
 
     #index-page #video-wrapper #video a {
         font-size: 115px;
-        width: 440px;
+        width: calc(100% - 20px);
     }
 
     /* Jobs section */
     #index-page #jobs-wrapper #jobs {
         padding: 0;
-        width: 440px;
+        width: calc(100% - 20px);
     }
     
         #index-page #jobs-wrapper #jobs .job {
@@ -601,17 +610,20 @@ footer .menu li.social a img {width: 20px;}
    
     #footer-wrapper #footer {
         padding: 0;
-        width: 440px;
+        width: calc(100% - 20px);
     }
+
+    .region-footer ul.menu { padding-left: 0; }
 }
 
 /* MOBILE */
 /* The container width will be 320px in this case so you must count with it. */
 @media screen and (max-width: 479px) {
-    
-    .container {
-        width: 280px;
+    body {
+        background-color: lightpink;
     }
+    
+    
     
     hr.section-delimiter {
         width: 280px;
@@ -695,4 +707,6 @@ footer .menu li.social a img {width: 20px;}
     #footer-wrapper #footer {
         width: 280px;
     }
+
+    .region-footer ul.menu { padding-left: 0; }
 }

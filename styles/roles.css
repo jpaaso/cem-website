@@ -153,6 +153,7 @@
 }
 
 @media screen and (max-width: 479px) {
+
 	#role-page #header-wrapper #header h1 { font-size: 24px;}
 	#role-page #header-wrapper #header h2 { font-size: 42px;}
 	#role-page #header-wrapper #header { height: auto; padding-bottom: 160px;}
@@ -162,6 +163,9 @@
 	#role-page #video-wrapper #video hr { width: 90%;}
 
 	#role-page #header-wrapper #header #links .buttons li a {  font-size: 18px;}
+
+	#role-page #cem-wrapper h3.section-slogan { font-size:22px;}
+	#role-page #apply h3 { font-size:22px;}
 	
 }
 
