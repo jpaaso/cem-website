@@ -1,7 +1,7 @@
 /* ROLE PAGE */
 
 #role-page #header-wrapper #header #links #button-back {
-    background: url(../images/button-arrow-left.png) 10px 20px no-repeat #6cc04a;
+    background: url(../images/button-arrow-left.png) 10px 20px no-repeat;
 
 }
 #role-page #header-wrapper {
