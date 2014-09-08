@@ -12,7 +12,7 @@
 }
 	#role-page #header-wrapper #header {
 		padding-top: 260px;
-		height: 418px;
+		min-height: 418px;
 		position: relative;
 	}
 
@@ -67,7 +67,7 @@
 
 /* VIDEO */
 #role-page #video-wrapper {
-	height: 678px;
+	min-height: 678px;
 	background-color: #000;
 }
 
@@ -100,7 +100,7 @@
 
 /* Apply */
 #role-page #apply-wrapper {
-	height: 750px;
+	min-height: 750px;
 }
 	#role-page #apply-wrapper img {
 		margin-top: 65px;
