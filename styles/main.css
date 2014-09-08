@@ -98,12 +98,6 @@ hr.section-delimiter {
     margin: 30px auto 60px;
 }
 
-p.heading-info {
-    font-size: 14px !important;
-    font-family: "Helvetica Neue Bold";
-    line-height: 1;
-    margin-top: 20px;
-} 
 p.section-text {
     padding-bottom: 30px;
     font-size: 22px;
