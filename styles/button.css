@@ -1,0 +1,86 @@
+#header-wrapper #header #links {
+        height: 184px;
+        border-top: 1px solid #fff;
+        width: 100%;
+    }
+    
+        #header-wrapper #header #links .buttons {
+            margin-top: 60px;
+        }
+        
+            #header-wrapper #header #links .buttons li {
+                float: left;
+                list-style-type: none;
+                list-style-position: inside;
+                display: block;
+                margin: 0 8px;
+                border: solid 1px #000;
+                position: relative;
+                z-index: 1;
+            }
+
+            
+                        
+                #header-wrapper #header #links .buttons li a {
+                    display: block;
+                    width: 174px;
+                    height: 46px;
+                    line-height: 46px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-size: 24px;
+                    font-family: "Helvetica Neue Bold";
+                    background: url(../images/button-arrow.png) center 35px no-repeat;
+
+                }
+                
+    #header-wrapper #social {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+#header-wrapper #header #links .buttons li:hover{
+   border: solid 1px #fff;
+}
+
+#header-wrapper #header #links .buttons li:after {
+    content: "";
+    position:absolute;
+    top:0; left:0;
+    width:100%; height:0px;
+    background:#000;
+    z-index:-1;
+    transition: height 0.5s;
+}
+
+#header-wrapper #header #links .buttons li:hover:after { height:100%; }
+
+
+#header-wrapper #header #links .buttons li:active{
+    background: #000;
+    border: solid 4px #fff;
+    width: 168px;
+   
+}
+#header-wrapper #header #links .buttons li:active a {
+    height: 39px;
+    line-height: 39px;
+    background-position: center 32px;
+    width: 168px;
+    margin-left: -2px;
+    margin-top: -3px;
+}
+
+/* LINKS */
+
+.read-more {
+    cursor: pointer;
+}
+
+.read-more:hover { 
+    color: #e75f83;
+}
+
+.read-more:active { color: #ee91a9; }
