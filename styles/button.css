@@ -3,10 +3,14 @@
         border-top: 1px solid #fff;
         width: 100%;
     }
+
+    #role-page #header-wrapper #header #links { height: auto; border: none;}
     
         #header-wrapper #header #links .buttons {
             margin-top: 60px;
         }
+
+        #role-page #header-wrapper #header #links .buttons { margin-top: 0;}
         
             #header-wrapper #header #links .buttons li {
                 float: left;
@@ -71,6 +75,33 @@
     width: 168px;
     margin-left: -2px;
     margin-top: -3px;
+}
+
+
+@media screen and (max-width: 767px) {
+    /* Buttons */
+    #header-wrapper #header #links .buttons li a {
+        width: 100px;
+        height: 46px;
+        font-size: 19px;
+    }
+
+    #header-wrapper #header #links .buttons li:active{ width: 94px;}
+    #header-wrapper #header #links .buttons li:active a {
+        height: 39px;
+        line-height: 39px;
+        background-position: center 32px;
+        width: 94px;
+        margin-left: -2px;
+        margin-top: -3px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 479px) {
+
 }
 
 /* LINKS */
