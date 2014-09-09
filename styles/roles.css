@@ -136,6 +136,7 @@
 		font-family: "Helvetica Neue Light";
 		text-decoration: none;
 		font-size: 22px;
+        -webkit-text-size-adjust: 100%;
 	}
 
 
