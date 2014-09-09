@@ -65,9 +65,8 @@
 
 html {
   font-family: "Helvetica Neue Light";
+  -webkit-text-size-adjust: 100%;
 }
-
-div, p, a, li, td { -webkit-text-size-adjust:none; }
 
 /* General styles */
 .wrapper {
