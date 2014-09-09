@@ -187,16 +187,8 @@
 
 	#role-page #cem-wrapper h3.section-slogan { font-size:22px;}
 	#role-page #apply h3 { font-size:22px;}
+    #role-page #apply p { font-size:14px;}
 	
-}
-
-/* Retina specific styles */
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-    #role-page #apply-wrapper p {
-		font-size: 22px;
-	}
 }
 
 
