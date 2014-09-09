@@ -118,6 +118,10 @@ p.section-text {
     z-index: 0;
 }
 
+.job.color-green img {
+    border: none;
+}
+
     #index-page  #header-wrapper #header {
       color: #fff;
 	  display: table-cell;
@@ -194,6 +198,7 @@ p.section-text {
 /* --------------- Video ------------------------*/
 .hero .flowplayer { display:block; }
 .fp-help + a {z-index:-1 !important;}
+.backgroundimage { visibility:hidden; display:none; }
 
 /* --------------- Footer ------------------------*/
 footer { background-color: #63b3e3; color: white; font-family: Arial,
@@ -379,6 +384,8 @@ footer .menu li.social a img {width: 20px;}
     margin: 0 0 60px 31px;
 }
 
+#index-page #jobs-wrapper a { border: 0px; }
+
 #index-page #jobs-wrapper #jobs .job:nth-child(3n+1) {
     margin-left: 0;
 }
@@ -503,10 +510,6 @@ footer .menu li.social a img {width: 20px;}
 /* TABLET */
 /* The container width will be 768px in this case  so you must count with it. */
 @media screen and (max-width: 1023px) {
-    /* TODO remove background color changing */
-    body {
-        background-color: lightgreen;
-    }
     
     .container {
         width: 728px;    /* down from 980 px (75%) */
@@ -546,15 +549,15 @@ footer .menu li.social a img {width: 20px;}
 /* SMARTPHONE */
 /* The container width will be 480px in this case so you must count with it. */
 @media screen and (max-width: 767px) {
-    body {
-        background-color: lightblue;
-    }
     
     .container {
         width: calc(100% - 20px);
         padding: 0 10px;
        
     }
+
+    .backgroundplayer {visibility:hidden; display:none; }
+    .backgroundimage {display:block; visibility:visible;}
     
     /* from 120px, 24px, 150px, 48px */
     #index-page #header-wrapper #header #slogan h1 { font-size: 70px; line-height: 80px; }
@@ -619,11 +622,9 @@ footer .menu li.social a img {width: 20px;}
 /* MOBILE */
 /* The container width will be 320px in this case so you must count with it. */
 @media screen and (max-width: 479px) {
-    body {
-        background-color: lightpink;
-    }
     
-    
+   
+.centeredtable {}
     
     hr.section-delimiter {
         width: 280px;
