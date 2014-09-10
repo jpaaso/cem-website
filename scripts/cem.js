@@ -16,7 +16,7 @@ $(function() {
     }
   });
 
-
+  /*
    // fade
   var container = $(".wrapper, .job").not('.wrapper:first').not('#jobs-wrapper').fadeTo(0, 0.5); 
 
@@ -58,7 +58,7 @@ $(function() {
           
           if (visible) {
               if (allVisible) {
-                  $(this).stop().delay(500).fadeTo(500, 1);
+                  $(this).stop().fadeTo(300, 1);
               } 
               else {
               //$(this).stop().delay(500).fadeTo(500, 0.5);
@@ -67,7 +67,7 @@ $(function() {
     });
   });
    // fade end
-
+  */
 
 
 });
