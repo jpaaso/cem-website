@@ -562,7 +562,11 @@ footer .menu li.social a img {width: 20px;}
     #index-page h2.section-heading { 
         font-size: 80px;
     }
-    /*h3.section-slogan                  { font-size: 30px; }*/
+
+    #index-page #header-wrapper {
+        background:url("../images/mobileIntro.jpg") no-repeat center center;
+        background-size: auto 100%;
+    }
 
     /* Buttons */
     #index-page #header-wrapper #header #links .buttons li a {
@@ -630,6 +634,11 @@ footer .menu li.social a img {width: 20px;}
         margin: 30px auto 60px;
     }
     
+    #index-page #header-wrapper {
+        background:url("../images/mobileIntro.jpg") no-repeat center center;
+        background-size: auto 100%;
+    }
+
     #index-page #header-wrapper #header #slogan {
         height: 326px;
     }
