@@ -473,6 +473,9 @@ footer { background-color: #63b3e3; color: white; font-family: Arial,
 footer a {
     text-decoration: none;
 }
+footer a:hover {
+    text-decoration: underline;
+}
 .row, .footer-inner { width: 1200px; max-width: 100%; margin: 0 auto; padding: 0; }
 footer:after { background-color: #63b3e3; bottom: 0; height: 100%; position: absolute; width: 100%; z-index: -100; }
 footer .menu a { color:#fff; padding-bottom:4px; border-bottom:0px solid #fff; }
