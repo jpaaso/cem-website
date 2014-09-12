@@ -1,5 +1,5 @@
 /* ROLE PAGE */
-
+#role-page .section-delimiter { display: none; }
 #role-page #header-wrapper #header #links #button-back {
     background: transparent url(../images/button-arrow-left.png) 10px 20px no-repeat;
 
@@ -54,7 +54,7 @@
 /* CEM */
 #roles-page #cem-wrapper #cem {
     padding-bottom: 40px;
-    text-align: center;
+    text-align: left;
 }
 
     #roles-page #cem-wrapper #cem h2 {
@@ -64,7 +64,7 @@
 	#role-page #cem-wrapper h3 {
 		font-family: "Helvetica Neue Light";
 		font-size: 35px;
-		height: 250px;
+		padding-top: 55px;
 	}
 
 
@@ -74,38 +74,9 @@
 
 
 /* VIDEO */
-#role-page #video-wrapper {
-	min-height: 678px;
-	background-color: #000;
+.flowplayer {
+	margin-top: 45px;
 }
-
-	#role-page #video-wrapper #video a {
-		text-decoration: none;
-		color: #6cc04a;
-		font-size: 150px;
-		text-transform: uppercase;
-		font-family: "Helvetica Neue Bold";
-		line-height: 205px;
-		margin: 0 auto;
-		width: 600px;
-		display: block;
-	}
-
-	#role-page #video-wrapper #video hr {
-		width: 365px;
-		border: none;
-		margin: 0 auto;
-		height: 236px;
-	}
-
-		#role-page #video-wrapper #video hr.border-bottom {
-			border-bottom: 1px solid #6cc04a;
-		}
-
-		#role-page #video-wrapper #video hr.border-top {
-			border-top: 1px solid #6cc04a;
-		}
-
 /* Apply */
 #role-page #apply-wrapper {
 	min-height: 650px;
@@ -147,7 +118,7 @@
 	#role-page #header-wrapper #header h1 { font-size: 50px; padding: 0; height: auto;}
 	#role-page #header-wrapper #header h2 { font-size: 60px; padding: 0; height: auto;}
 	#role-page #header-wrapper #header p { padding: 0; height: auto; margin-bottom: 20px;}
-	#role-page #cem-wrapper h3 { height: auto;}
+	/*#role-page #cem-wrapper h3 { height: auto;}*/
 	#role-page #header-wrapper #header #role-icon { left: 20px;}
 
 }
@@ -158,7 +129,6 @@
     #role-page { max-width: 100%; width: 100%; }
 	#role-page #header-wrapper #header h1 { font-size: 40px;}
 	#role-page #header-wrapper #header h2 { font-size: 60px;}
-	#role-page #video-wrapper #video a { width: auto; font-size: 70px;}	
 }
 
 @media screen and (max-width: 479px) {
@@ -168,8 +138,6 @@
 	#role-page #header-wrapper #header h2 { font-size: 42px;}
 	#role-page #header-wrapper #header { height: auto; padding-bottom: 160px;}
 	#role-page #header-wrapper #header p { line-height: normal; padding: 0;}
-	#role-page #video-wrapper #video a { width: auto; font-size: 40px;}
-	#role-page #video-wrapper #video hr { width: 90%;}
 
 	#role-page #header-wrapper #header #links .buttons li a {  font-size: 18px;}
 
