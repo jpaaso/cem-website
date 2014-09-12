@@ -136,7 +136,9 @@
 		font-size: 22px;
 	}
 
-
+ 	.contact-name {
+		font-family: "Helvetica Neue Bold";
+ 	}
 
 @media screen and (max-width: 1023px) {
 

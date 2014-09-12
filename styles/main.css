@@ -329,7 +329,7 @@ footer .menu li.social a img {width: 20px;}
             width: 80px !important;
         }
 
-.centeredtable { display: table; margin: 0 auto; max-width: 1200px; width: 100%; }
+.centeredtable { display: table; margin: 0 auto; max-width: 1200px; width: 90%; }
 /* CEM */
 #index-page #cem-wrapper #cem {
     padding-bottom: 40px;
