@@ -24,10 +24,11 @@
 		position: relative;
 	}
 
-		#role-page #header-wrapper #header #role-icon {
+		#role-page #role-icon {
 			position: absolute;
 			top: 53px;
-			left: 30px;
+			left: 53px;
+			width: 90px;
 		}
 
 		#role-page #header-wrapper #header h1 {
@@ -121,7 +122,6 @@
 	#role-page #header-wrapper #header h2 { font-size: 60px; padding: 0; height: auto;}
 	#role-page #header-wrapper #header p { padding: 0; height: auto; margin-bottom: 20px;}
 	/*#role-page #cem-wrapper h3 { height: auto;}*/
-	#role-page #header-wrapper #header #role-icon { left: 20px;}
 
 }
 
@@ -131,6 +131,7 @@
     #role-page { max-width: 100%; width: 100%; }
 	#role-page #header-wrapper #header h1 { font-size: 40px;}
 	#role-page #header-wrapper #header h2 { font-size: 60px;}
+	#role-page #role-icon { left: 38px;}
 }
 
 @media screen and (max-width: 479px) {
@@ -145,7 +146,8 @@
 
 	#role-page #cem-wrapper h3.section-slogan { font-size:22px;}
 	#role-page #apply h3 { font-size:22px;}
-	
+	#role-page #role-icon { left: 27px;}
+
 }
 
 
