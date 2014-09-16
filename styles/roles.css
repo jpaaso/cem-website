@@ -20,13 +20,10 @@
 
 	#role-page #header {
 		text-align: left;
-	}
-	#role-page #header-wrapper #header {
 		padding-top: 230px;
 		height: 418px;
 		position: relative;
 	}
-
 		#role-page #role-icon {
 			position: absolute;
 			top: 83px;
