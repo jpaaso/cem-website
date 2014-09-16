@@ -26,7 +26,7 @@
 
 		#role-page #role-icon {
 			position: absolute;
-			top: 53px;
+			top: 83px;
 			left: 53px;
 			width: 90px;
 		}
@@ -53,13 +53,9 @@
 		}
 
 /* CEM */
-#roles-page #cem-wrapper #cem {
-    padding-bottom: 40px;
-    text-align: left;
+#role-page #cem {
+	text-align: left;
 }
-	#roles-page #cem .container {
-		text-align: left;
-	}
     #roles-page #cem-wrapper #cem h2 {
         margin-top: 120px;
     }
@@ -70,11 +66,24 @@
 		padding-top: 55px;
 	}
 
+#role-page #cem-wrapper #cem ul { 
+	width: 100%;
+	margin-top: 0; 
+	float: left; 
+	margin-bottom: 30px;
+}
 
-#role-page #cem-wrapper #cem ul { width: 100%; list-style-type: none; margin-top: 0; float: left; margin-bottom: 30px;}
-
-#role-page #cem-wrapper #cem ul li { margin-bottom: 20px; text-align: left; }
-
+#role-page #cem-wrapper #cem ul li { 
+	margin-bottom: 20px; 
+	margin-left: 0px;
+	text-align: left; 
+	list-style: none;
+	padding-left: 3em;
+	text-indent: 0em;
+	background: url(../images/dash24.png) 0px 0px no-repeat; 
+	background-size: 18px;
+}
+/*#role-page #cem-wrapper #cem ul li:before { content:"\2013  "; }*/
 
 /* VIDEO */
 .flowplayer {
@@ -137,8 +146,8 @@
 @media screen and (max-width: 479px) {
     
     #role-page { max-width: 100%; width: 100%; }
-	#role-page #header-wrapper #header h1 { font-size: 24px;}
-	#role-page #header-wrapper #header h2 { font-size: 42px;}
+	#role-page #header-wrapper #header h1 { font-size: 20px;}
+	#role-page #header-wrapper #header h2 { font-size: 38px;}
 	#role-page #header-wrapper #header { height: auto; padding-bottom: 160px;}
 	#role-page #header-wrapper #header p { line-height: normal; padding: 0;}
 
