@@ -316,15 +316,13 @@ footer .menu li.social a img {width: 20px;}
     #index-page #header-wrapper #social {
         position: absolute;
         bottom: 20px;
-        right: 10px;
-        white-space: nowrap;
+        right: 0px;
     }
     
         #index-page #header-wrapper #social div,
         #index-page #header-wrapper #social span,
         #index-page #header-wrapper #social iframe {
             float: left;
-            display: inline-block;
         }
         
         #index-page #header-wrapper #social .twitter-share-button {
