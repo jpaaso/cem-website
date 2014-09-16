@@ -22,9 +22,7 @@
                 position: relative;
                 z-index: 1;
             }
-
-            
-                        
+                                    
                 #header-wrapper #header #links .buttons li a {
                     display: block;
                     width: 174px;
@@ -37,12 +35,6 @@
                     font-family: "Helvetica Neue Bold";
                     background: url(../images/button-arrow.png) center 35px no-repeat;
                 }
-                
-    #header-wrapper #social {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-    }
 
 #header-wrapper #header #links .buttons li:hover{
    border: solid 1px #fff;

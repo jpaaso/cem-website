@@ -23,6 +23,7 @@
 		padding-top: 230px;
 		height: 418px;
 		position: relative;
+		overflow: hidden;
 	}
 		#role-page #role-icon {
 			position: absolute;
