@@ -313,19 +313,19 @@ footer .menu li.social a img {width: 20px;}
                     background: url(../images/button-arrow.png) center 35px no-repeat;
                 }
                 
-    #index-page #header-wrapper #social {
+    #header-wrapper #social {
         position: absolute;
         bottom: 20px;
         right: 0px;
     }
     
-        #index-page #header-wrapper #social div,
-        #index-page #header-wrapper #social span,
-        #index-page #header-wrapper #social iframe {
+        #header-wrapper #social div,
+        #header-wrapper #social span,
+        #header-wrapper #social iframe {
             float: left;
         }
         
-        #index-page #header-wrapper #social .twitter-share-button {
+        #header-wrapper #social .twitter-share-button {
             width: 80px !important;
         }
 
