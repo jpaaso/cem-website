@@ -18,8 +18,11 @@
 .solutionHead.wrapper { background:url("../images/rolepictures/SolutionHead.jpg") no-repeat center center; }
 .technologyConsultant.wrapper { background:url("../images/rolepictures/TechnologyConsultant.jpg") no-repeat center center; }
 
+	#role-page #header {
+		text-align: left;
+	}
 	#role-page #header-wrapper #header {
-		padding-top: 260px;
+		padding-top: 230px;
 		height: 418px;
 		position: relative;
 	}
@@ -35,23 +38,21 @@
 			font-family: "Helvetica Neue Bold";
 			font-size: 50px;
 			text-transform: uppercase;
-			text-align: left;
-			height: 50px;
 		}
 
 		#role-page #header-wrapper #header h2 {
 			font-family: "Helvetica Neue Bold";
 			font-size: 75px;
-			text-align: left;
-			height: 75px;
 		}
 		#role-page #header-wrapper #header p {
+			margin-top: 20px;
 			line-height: 30px;
 			font-size: 20px;
-			text-align: left;
-			padding: 70px 0 43px 0;
 		}
 
+		#role-page #header a {
+			text-align: center;
+		}
 /* CEM */
 #role-page #cem {
 	text-align: left;
@@ -138,7 +139,7 @@
 @media screen and (max-width: 767px) {
 
     #role-page { max-width: 100%; width: 100%; }
-	#role-page #header-wrapper #header h1 { font-size: 40px;}
+	#role-page #header-wrapper #header h1 { font-size: 30px;}
 	#role-page #header-wrapper #header h2 { font-size: 60px;}
 	#role-page #role-icon { left: 38px;}
 }
@@ -149,7 +150,7 @@
 	#role-page #header-wrapper #header h1 { font-size: 20px;}
 	#role-page #header-wrapper #header h2 { font-size: 38px;}
 	#role-page #header-wrapper #header { height: auto; padding-bottom: 160px;}
-	#role-page #header-wrapper #header p { line-height: normal; padding: 0;}
+	#role-page #header-wrapper #header p { font-size: 17px; line-height: normal; padding: 0;}
 
 	#role-page #header-wrapper #header #links .buttons li a {  font-size: 18px;}
 
