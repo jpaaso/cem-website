@@ -247,6 +247,16 @@ p.section-text {
     }
 
 /* --------------- Video ------------------------*/
+/* Hide controls */
+.fp-controls { display: none; }
+.flowplayer.is-mouseover .fp-fullscreen,.flowplayer.fixed-controls .fp-fullscreen,.flowplayer.is-mouseover .fp-unload,.flowplayer.fixed-controls .fp-unload,.flowplayer.is-mouseover .fp-elapsed,.flowplayer.fixed-controls .fp-elapsed,.flowplayer.is-mouseover .fp-remaining,.flowplayer.fixed-controls .fp-remaining,.flowplayer.is-mouseover .fp-duration,.flowplayer.fixed-controls .fp-duration,.flowplayer.is-mouseover .fp-embed,.flowplayer.fixed-controls .fp-embed,.flowplayer.is-mouseover .fp-logo,.flowplayer.fixed-controls .fp-logo,.flowplayer.is-mouseover .fp-volume,.flowplayer.fixed-controls .fp-volume,.flowplayer.is-mouseover .fp-play,.flowplayer.fixed-controls .fp-play{
+    display: none;
+}
+
+/*.flowplayer .fp-ui, .is-paused.flowplayer .fp-ui { background: none; }
+.flowplayer .fp-timeline { display: none; }
+.backgroundplayer .is-mouseover { display: none; }*/
+
 .flowplayerwrapper { background-color:#000; width:100%; z-index:1; position:relative; }
 .backgroundplayer .flowplayer { 
     display: block !important; 
