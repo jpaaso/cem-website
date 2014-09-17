@@ -8,15 +8,15 @@
 	background-color: black;
 	color: white;
 }
-.designer.wrapper { background:url("../images/rolepictures/designer.jpg") no-repeat center center; }
-.analyst.wrapper { background:url("../images/rolepictures/analyst.jpg") no-repeat center center; }
-.architect.wrapper { background:url("../images/rolepictures/Architect.jpg") no-repeat center center; }
-.businessConsultant.wrapper { background:url("../images/rolepictures/BusinessConsultant.jpg") no-repeat center center; }
-.developer.wrapper { background:url("../images/rolepictures/Developer.jpg") no-repeat center center; }
-.projectManager.wrapper { background:url("../images/rolepictures/ProjectManager.jpg") no-repeat center center; }
-.salesLead.wrapper { background:url("../images/rolepictures/SalesLead.jpg") no-repeat center center; }
-.solutionHead.wrapper { background:url("../images/rolepictures/SolutionHead.jpg") no-repeat center center; }
-.technologyConsultant.wrapper { background:url("../images/rolepictures/TechnologyConsultant.jpg") no-repeat center center; }
+.designer.wrapper { background:url("../images/RolePictures/designer.jpg") no-repeat center center; }
+.analyst.wrapper { background:url("../images/RolePictures/analyst.jpg") no-repeat center center; }
+.architect.wrapper { background:url("../images/RolePictures/Architect.jpg") no-repeat center center; }
+.businessConsultant.wrapper { background:url("../images/RolePictures/businessConsultant.jpg") no-repeat center center; }
+.developer.wrapper { background:url("../images/RolePictures/Developer.jpg") no-repeat center center; }
+.projectManager.wrapper { background:url("../images/RolePictures/ProjectManager.jpg") no-repeat center center; }
+.salesLead.wrapper { background:url("../images/RolePictures/SalesLead.jpg") no-repeat center center; }
+.solutionHead.wrapper { background:url("../images/RolePictures/SolutionHead.jpg") no-repeat center center; }
+.technologyConsultant.wrapper { background:url("../images/RolePictures/TechnologyConsultant.jpg") no-repeat center center; }
 
 	#role-page #header {
 		text-align: left;
